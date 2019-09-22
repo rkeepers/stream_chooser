@@ -40,7 +40,7 @@ def main():
 		elif choice=="4":	
 			stream = 'http://somafm.com/illstreet.pls'		
 		elif choice=="5":	
-			stream = 'https://live.wostreaming.net/direct/kplu-newsjazzaac-64?source=link'	
+			stream = 'https://live.wostreaming.net/playlist/ppm-knkxfmaac48-ibc1.m3u'	
 		elif choice=="q":
 			subprocess.Popen(['killall', '-9', 'vlc'], stdout=FNULL, stderr=subprocess.STDOUT)
 			sys.exit()
